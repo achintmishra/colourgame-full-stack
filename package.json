@@ -1,0 +1,25 @@
+{
+  "name": "colourgameprojecthci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "dependencies": {
+    "hbs": "^4.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achintmishra/colourgame-full-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achintmishra/colourgame-full-stack/issues"
+  },
+  "homepage": "https://github.com/achintmishra/colourgame-full-stack#readme"
+}
