@@ -5,6 +5,7 @@
   "main": "express.js",
   "dependencies": {
     "express": "^4.17.1",
+    "github": "^14.0.0",
     "hbs": "^4.1.2",
     "path": "^0.12.7"
   },
