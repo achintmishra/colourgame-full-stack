@@ -13,6 +13,7 @@ resetButton.addEventListener("click",function()
     colours=generateRandomColours(numSquares);
     pickedColor=colours[3];
     huh.textContent = pickedColor;
+    messageDisplay.textContent="";
     for(var i=0;i<squares.length;i++)
     {
         squares[i].style.backgroundColor=colours[i];
@@ -31,11 +32,13 @@ for (var i=0;i<squares.length;i++)
             h1.style.backgroundColor = clickedColor;
             resetButton.textContent="Play Again!";
             messageDisplay.textContent="correct!";
+            changecolors(pickedColor);
         }
         else
         {
             resetButton.textContent="New Colours";
             messageDisplay.textContent="Try Again!";
+            this.style.backgroundColor="#232323";
         }
     });
 }
@@ -54,4 +57,11 @@ function randomColor()
     var G = Math.floor(Math.random()*256);
     var B = Math.floor(Math.random()*256);
     return "rgb("+R+", "+G+", "+B+")";
+}
+function changecolors(colours)
+{
+    for(var i=0;i<squares.length;i++)
+    {
+        squares[i].style.backgroundColor=colours;
+    }
 }

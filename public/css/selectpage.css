@@ -1,6 +1,6 @@
 #bro
 {
-    background-color:#232324;
+    background-color:#232323;
 }
 .btn
 {
@@ -9,4 +9,9 @@
     margin-left: 40%;
     margin-top: 8%;
     font-size: x-large;
+}
+img
+{
+    height:5%;
+    width:5%;
 }

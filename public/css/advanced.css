@@ -43,7 +43,7 @@ h1
 {
     font-size:200%;
 }
-button
+button 
 {
     border:none;
     background-color: white;
@@ -52,7 +52,7 @@ button
     color:steelblue;
     letter-spacing: 1px;
     font-size: inherit;
-    transition:all 0.2s;
+    transition:all 1s;
 }
 #message
 {

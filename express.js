@@ -20,6 +20,9 @@ app.get("/intermediate",(req,res)=>{
 app.get("/advanced",(req,res)=>{
   res.render('advanced')
 })
+app.get("/tutorial",(req,res)=>{
+  res.render('tutorial')
+})
 app.listen(port,()=>{
   console.log("your server is up on port"+port)
 })
